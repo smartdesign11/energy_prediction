@@ -1,4 +1,4 @@
-# 运行时参数
+﻿# 运行时参数
 #===================================
 train: Train # 对每个cient训练新的模型或者利用已有模型
 predict: Train # 生成新的预测，或者使用本地存储的预测
@@ -57,7 +57,6 @@ metrics_dir: 'metrics/ener_temp_filter/winter7_choose/high/FL'
 #数据集位置
 #=========================================
 train_data_dir: 'data/house_temp_energy_season/winternumpy7_choose/high/train'
-train_data_all_dir: 'data/house_temp_energy_season/winternumpy7_choose/high/all/train'
 test_data_dir: 'data/house_temp_energy_season/winternumpy7_choose/high/test'
 #=========================================
 # 可选择的模型
