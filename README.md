@@ -12,5 +12,10 @@ The configuration of model is described in `config.yaml`.
 ## Execution
 * Ensure that the data/house_temp_energy_season/winternumpy7_choose/high/train and data/house_temp_energy_season/winternumpy7_choose/high/test directories contain data
 * Run `python run.py`
-## filter
-`filter/high.txt`, `filter/mid.txt`, `filter/low.txt` contains contains the list of houses which are classified as high, medium, low electricity consumption.
+## Additional Notes
+### filter
+`filter/high.txt`, `filter/mid.txt`, `filter/low.txt` contain the list of houses which are classified as high, medium, low electricity consumption.
+### pre-process
+`preprocess/house_energy_filter.py`, `preprocess/houseclassify_addtemp.py`, `preprocess/predataprocess_ener_temp7.py` support to pre-process the raw data.
+## Data Source
+* [Smart meter data from London area](https://www.kaggle.com/jeanmidev/smart-meters-in-london)
