@@ -5,8 +5,8 @@
 ## Package Dependencies
 The detailed package dependencies are listed in `requirements.txt`
 ## Dataset
-**Overview**： smart meter data from London area<br/>
-**Description**: The dataset is classified into three categories (low, medium and high) according to the average daily electricity consumption of the households from Dec 1, 2012 to Feb 28, 2013. Each record of the training set includes 7 features (minimum, maximum, mean, median, std and sum of electricity consumption and mean temperature of the previous day) and one label (the sum of electricity consumption of the next day). <br/>
+**Overview**： Data on electricity consumption by smart meters in London<br/>
+**Description**:  According to the average of the daily electricity consumptions from December 1st 2012 to February 28th 2013, the households were divided into 3 categories/federations: Low (<9kWh), Medium (9-18kWh), and High (>18kWh). Each record of the training set includes 7 features (i.e., minimum, maximum, mean, median, std and total of electricity consumption as well as the average temperature in the current day) and one label (the total of electricity consumption in the next day). <br/>
 ## Configuration
 The configuration of model is described in `config.yaml`.
 ## Execution
